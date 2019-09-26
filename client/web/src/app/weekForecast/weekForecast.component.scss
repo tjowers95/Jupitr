@@ -1,0 +1,47 @@
+.week-forecast {
+  display: flex;
+  background: black;
+  flex-direction: column;
+  margin-top: 2em;
+  float: left;
+  width: 5em;
+  height: 80%;
+}
+.week-forecast > ul {
+  display: flex;
+  justify-content: space-evenly;
+  background:white;
+  align-items: center;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 80%;
+  height: 100%;
+}
+.day-li {
+  background: white;
+  color: black;
+  font-family: monospace;
+  font-size: 9pt;
+  font-weight: 900;
+  height: 2em;
+  width: 2em;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  padding-top: 2px;
+}
+.day-li:hover {
+color: purple;
+}
+.today {
+border: 3px solid black;
+border-radius: 50%;
+}
+.today:hover {
+border-color: purple;
+}
+.day-block {
+padding: 3px;
+}

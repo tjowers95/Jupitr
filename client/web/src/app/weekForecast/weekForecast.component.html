@@ -1,0 +1,7 @@
+<div class='week-forecast'>
+    <ul>
+        <li *ngFor="let day of weekday; let i=index;" class="day-li" [class.today]="today == i">
+          <div class='day-block' id="day{{i}}">{{weekday[i]}}</div>
+        </li>
+    </ul>
+</div>
