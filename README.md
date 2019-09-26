@@ -1,2 +1,0 @@
-# Jupitr
-Dating app backend
